@@ -1,6 +1,11 @@
-welcome to team RCB :
+pipeline{
+agent any
+stages {
+stage("build")
+{
+steps{
+echo "hello world"
+}
+}
+}
 
-here we have, 
-ab de villiers
-virat kohli
-glenn maxwell
